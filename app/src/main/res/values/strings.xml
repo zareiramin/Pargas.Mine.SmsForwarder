@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">فوروارد کننده پیامک</string>
+    <!-- Preference Titles -->
+    <string name="forward_setting">تنظیمات فوروارد</string>
+
+    <string name="title_activity_main">فوروارد پیامک</string>
+    <string name="nav_header_title">پرگاس سیستم</string>
+    <string name="nav_header_subtitle">info@pargas-it.ir</string>
+    <string name="nav_header_subtitle2">0914-248-3438</string>
+    <string name="menu_home">خانه</string>
+    <string name="menu_setting">تنظیمات</string>
+    <string name="target_ip">آپی مقصد</string>
+    <string name="target_port">پورت مقصد</string>
+    <string name="source_number">شماره تلفن مبدا</string>
+    <string name="enable_forward">فعال بودن فوروارد</string>
+    <string name="show_sms_form_all_numbers">نمایش همه پیامک‌های دریافتی</string>
+    <string name="clear">پاک کردن</string>
+    <string name="add">افزودن</string>
+</resources>

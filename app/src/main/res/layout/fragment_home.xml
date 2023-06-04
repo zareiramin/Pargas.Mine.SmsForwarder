@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment"
+
+    >
+
+
+    <TextView
+        android:id="@+id/lblYourIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="آی پی شما: 192.168.1.10"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/lblMessagesFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="پیام های دریافتی از شماره: 9142483132"
+        android:padding="5dp"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_all_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:insetBottom="0dp"/>
+
+
+
+
+</LinearLayout>
